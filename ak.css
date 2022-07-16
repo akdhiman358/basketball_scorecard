@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    margin-top: 50px;
+    font-size: 90px;
+    color: #F94F6D;
+    background-color: black;
+    border-radius: 20px;
+}
+.container button{
+    border:3px dotted #F94F6D;
+    font-size: larger;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+button:hover{
+    background: goldenrod;
+    
+}
+.main{
+    background-color: antiquewhite;
+    border: 10px solid salmon;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#reset-btn{
+    padding: 10px 20px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: 600;
+    border: 3px solid rgb(246, 8, 167);
+    border-radius: 5px;
+}
+.main h3, h2{
+    font-size:xx-large;
+}
+body h1{
+    color: brown;
+}
